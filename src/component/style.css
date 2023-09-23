@@ -1,5 +1,17 @@
 body {
-    background-color: black;
+    background-color: white;
+    top: 0px;
+}
+
+.camponen {
+  margin-top: 0px;
+}
+
+.navbar {
+  background-color: #d9d9d9;
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
 }
 
 .navbar-togle {
@@ -15,6 +27,11 @@ body {
     color: rgb(185, 182, 175);
 }
 
-.image-brand {
-    border-radius: 100%;
+.navbar-brand {
+  margin-top: -2vh;
+  margin-bottom: -2vh;
 }
+
+/* .image-brand {
+    border-radius: 100%;
+} */

@@ -4,13 +4,13 @@ import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
-        <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+        <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark shadow-5-strong top-0">
             <Container>
-                <Navbar.Brand href="#home" className="d-flex">
+                <Navbar.Brand href="#home" className="d-flex navbar-brand">
                     <img
-                        src="https://img.freepik.com/premium-vector/barbershop-logo-with-title-barber-shop_854396-1.jpg?w=740"
-                        width="100"
-                        height="50"
+                        src="logo_turnitin.png"
+                        width="150"
+                        height="80"
                         className="d-inline-block align-top image-brand"
                         alt=""
                     />

@@ -1,4 +1,5 @@
 import Componen from "./component";
+//import "./App.css";
 
 
 function App() {
